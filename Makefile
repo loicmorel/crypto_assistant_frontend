@@ -1,4 +1,4 @@
-
+APP_NAME = crypto-assistant-portfolio
 # ----------------------------------
 #         LOCAL SET UP
 # ----------------------------------

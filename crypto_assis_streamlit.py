@@ -12,8 +12,8 @@ from datetime import timedelta
 
 ############################
 ## SERVER CONF.
-url = "http://127.0.0.1:8000"
-# url = "https://cryptoassistantimageamd64-c7z3tydiqq-df.a.run.app"
+# url = "http://127.0.0.1:8000"
+url = "https://cryptoassistantimageamd64-c7z3tydiqq-df.a.run.app"
 
 # date_ = datetime(2022,5,13)
 date_ = datetime.now()
@@ -47,7 +47,7 @@ if len(avalable_coins) == 0:
     api_url = f'{url}/get_avalaible_coins'
     response = requests.get(api_url)
     if response.status_code != 200:
-        st.error(("API call error"))
+        st.error(("API call error "))
     else:
         print("API call success")
         avalable_coins = response.json().get('avalaible_coins', [])
