@@ -1,0 +1,7 @@
+streamlit
+qtpy
+plotly
+pandas
+datetime
+requests
+altair
